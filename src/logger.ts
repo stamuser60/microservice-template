@@ -1,4 +1,4 @@
-import { createLogger } from '**THIS ONE CHANGED** /jslogger';
+import { createLogger } from '@stamscope/jslogger';
 
 const logger = createLogger();
 export default logger;
