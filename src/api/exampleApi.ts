@@ -22,8 +22,8 @@ const router = Router();
  *        400:
  *          description: cde
  */
-router.get('/test-route/:username', async (req, res) => {
-  const { username } = req.params;
+router.post('/test-route/:username', async (req, res) => {
+  const username = req.params;
   console.log(username);
   res.send({ username });
 });
